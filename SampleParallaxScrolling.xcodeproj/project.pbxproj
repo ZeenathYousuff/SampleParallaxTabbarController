@@ -16,6 +16,8 @@
 		E8CFA37D1FCB24DB006579EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFA37C1FCB24DB006579EF /* main.m */; };
 		E8CFA3871FCB24DB006579EF /* SampleParallaxScrollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFA3861FCB24DB006579EF /* SampleParallaxScrollingTests.m */; };
 		E8CFA3921FCB24DB006579EF /* SampleParallaxScrollingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFA3911FCB24DB006579EF /* SampleParallaxScrollingUITests.m */; };
+		E8CFA3A11FCB27C6006579EF /* RKSwipeBetweenViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFA3A01FCB27C6006579EF /* RKSwipeBetweenViewControllers.m */; };
+		E8CFA3A41FCB2E2A006579EF /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFA3A31FCB2E2A006579EF /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E8CFA38D1FCB24DB006579EF /* SampleParallaxScrollingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleParallaxScrollingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CFA3911FCB24DB006579EF /* SampleParallaxScrollingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleParallaxScrollingUITests.m; sourceTree = "<group>"; };
 		E8CFA3931FCB24DB006579EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CFA39F1FCB27C5006579EF /* RKSwipeBetweenViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSwipeBetweenViewControllers.h; path = ../../../Documents/Wishfie/Wishfie/Wishfie/ThirdParties/SwipingScreen/RKSwipeBetweenViewControllers.h; sourceTree = "<group>"; };
+		E8CFA3A01FCB27C6006579EF /* RKSwipeBetweenViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSwipeBetweenViewControllers.m; path = ../../../Documents/Wishfie/Wishfie/Wishfie/ThirdParties/SwipingScreen/RKSwipeBetweenViewControllers.m; sourceTree = "<group>"; };
+		E8CFA3A21FCB2E2A006579EF /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E8CFA3A31FCB2E2A006579EF /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,15 @@
 		E8CFA3691FCB24DB006579EF /* SampleParallaxScrolling */ = {
 			isa = PBXGroup;
 			children = (
+				E8CFA39F1FCB27C5006579EF /* RKSwipeBetweenViewControllers.h */,
+				E8CFA3A01FCB27C6006579EF /* RKSwipeBetweenViewControllers.m */,
 				E8CFA36A1FCB24DB006579EF /* AppDelegate.h */,
 				E8CFA36B1FCB24DB006579EF /* AppDelegate.m */,
 				E8CFA36D1FCB24DB006579EF /* ViewController.h */,
 				E8CFA36E1FCB24DB006579EF /* ViewController.m */,
 				E8CFA3701FCB24DB006579EF /* Main.storyboard */,
+				E8CFA3A21FCB2E2A006579EF /* AddViewController.h */,
+				E8CFA3A31FCB2E2A006579EF /* AddViewController.m */,
 				E8CFA3761FCB24DB006579EF /* Assets.xcassets */,
 				E8CFA3781FCB24DB006579EF /* LaunchScreen.storyboard */,
 				E8CFA37B1FCB24DB006579EF /* Info.plist */,
@@ -270,8 +280,10 @@
 			files = (
 				E8CFA36F1FCB24DB006579EF /* ViewController.m in Sources */,
 				E8CFA36C1FCB24DB006579EF /* AppDelegate.m in Sources */,
+				E8CFA3A41FCB2E2A006579EF /* AddViewController.m in Sources */,
 				E8CFA37D1FCB24DB006579EF /* main.m in Sources */,
 				E8CFA3751FCB24DB006579EF /* SampleParallaxScrolling.xcdatamodeld in Sources */,
+				E8CFA3A11FCB27C6006579EF /* RKSwipeBetweenViewControllers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
