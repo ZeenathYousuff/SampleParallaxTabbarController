@@ -33,15 +33,15 @@
     AddViewController *vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"AddViewController"];;
      UIViewController *vc3 = [[UIViewController alloc]init];
     
-    
+    vc1.view.backgroundColor = [UIColor redColor];
+    vc3.view.backgroundColor = [UIColor greenColor];
     [navigationController.viewControllerArray addObjectsFromArray:@[vc1,vc2,vc3]];
     [self addChildViewController:navigationController];
     [navigationController didMoveToParentViewController:self];
     [navigationController.view setFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     [self.myScrollView addSubview:navigationController.view];
     self.navigationController.navigationBar.hidden = NO;
-   // [self addChildViewController:avcontroller];
-   // [self.view addSubview:avcontroller.view];
+   
 }
 
 
