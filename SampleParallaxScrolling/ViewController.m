@@ -62,15 +62,11 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
- // if(scrollView == _myScrollView)
- // {
     CGFloat scrollOffset = -scrollView.contentOffset.y;
     yPos = scrollOffset -_topView.bounds.size.height;
     _topView.frame = CGRectMake(0, yPos-10, _topView.frame.size.width, _topView.frame.size.height);
     float alpha=1.0-(-yPos/ _topView.frame.size.height);
     _topView.alpha=alpha;
-//  }
-  //  _restDetailView.alpha=alpha;
-    
+   
 }
 @end
